@@ -26,8 +26,21 @@
 
 ### Frameworks, Libraries and Programs Used
 1. [Balsamiq] wireframes created at the design stage in website devolopment
+
 2. Flask 
     * Python web framework
+    
+3. Jinga
+    * Template from Python/Flask
+
+4. [Github](https://github.com)
+    * Project was stored sd
+
+5. Gitpod
+    * Project code written here
+
+6. [Heroku](https://www.heroku.com)
+    * Used to deploy Milestone 3 project.
 
 ## Testing
 ### Issues Encountered
@@ -64,6 +77,7 @@
 ## Deployment
 ### GitHub Pages
 ### Forking the GitHub repository
+### Heroku
 
 ## Credits
 
