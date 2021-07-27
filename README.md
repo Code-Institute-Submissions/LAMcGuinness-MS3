@@ -42,6 +42,18 @@
 6. [Heroku](https://www.heroku.com)
     * Used to deploy Milestone 3 project.
 
+7. [MongoDB Atlas](https://account.mongodb.com/account/login)
+    * Used as database for MS3
+
+8. [Materialize](https://materializecss.com/)
+    * Used to help make app responsive and style
+
+9. [FontAwesome](https://fontawesome.com/)
+    * Used font awesome icons throughout the app
+
+10. [Workzeug](https://werkzeug.palletsprojects.com/en/2.0.x/)
+    * Used for security
+
 ## Testing
 ### Issues Encountered
 
