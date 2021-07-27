@@ -48,10 +48,13 @@
 8. [Materialize](https://materializecss.com/)
     * Used to help make app responsive and style
 
-9. [FontAwesome](https://fontawesome.com/)
+9. [JQuery](https://jquery.com/download/)
+    * Javascript library used for this project
+
+10. [FontAwesome](https://fontawesome.com/)
     * Used font awesome icons throughout the app
 
-10. [Workzeug](https://werkzeug.palletsprojects.com/en/2.0.x/)
+11. [Workzeug](https://werkzeug.palletsprojects.com/en/2.0.x/)
     * Used for security
 
 ## Testing
