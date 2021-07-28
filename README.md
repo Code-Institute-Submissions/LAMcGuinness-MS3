@@ -87,6 +87,9 @@ The aim of FastFood was to create an online cookbook of fast and healthy recipes
 #### Returning User
 
 ### Testing Functionality
+### Issues encountered
+    - Probem: Jinga errors when testing if register.html page was working 
+        - Fix: Human error {% end block %} was entered instead of {% endblock %}
 
 #### Checked for broken links
 #### Tested browser back/forward actions
