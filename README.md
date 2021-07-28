@@ -2,14 +2,33 @@
 
 ## About
 
+This is a website is a platfrom for sharing recipes that are healthy and will be ready fast. Its main purpose is recipe sharing among users. Users can register an account, add recipes and search through existing recipes. Fast Food is an educational project used for the purpose of my Milestone 3/Data Centric Module project for the Code Institute.
+
+A live version of the website can be found .... along with its repository ....
+
 ## UX Design 
+
+The aim of FastFood was to create an online cookbook of fast and healthy recipes. Users will be able to find and share recipes with each other. 
 
 ### Business Scope
 ### User Stories
 1. As as user I want to;
-    * 
-    * 
+    * Navigate through with ease and find all information presented clearly and consciously.
+    * Search for recipes 
+    * Easily register an account
+    * Share my own recipes
+
 2. As a returning user I want to;
+    * Find the log in to my account area
+    * Share recipes with other users
+    * Edit and delete my own recipes
+    * Navigate throughout with ease
+
+3. As the owner/adiminitrator I want to;
+    * Add new categories
+    * Edit and delete recipes
+    * Display results that are visually appealing and user friendly
+
 
 ### Design
 
