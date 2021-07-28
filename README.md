@@ -87,9 +87,14 @@ The aim of FastFood was to create an online cookbook of fast and healthy recipes
 #### Returning User
 
 ### Testing Functionality
-### Issues encountered
-    - Probem: Jinga errors when testing if register.html page was working 
+### Errors encountered
+    - Problem: Jinga errors when testing if register.html page was working 
         - Fix: Human error {% end block %} was entered instead of {% endblock %}
+    - Problem: NameError: name 'session' is not defined
+        - Fix: Human error spelling mistake
+    - Problem: NameError: name 'flash' is not defined
+        - Fix: Forgot to import 'flash' from 'flask'
+
 
 #### Checked for broken links
 #### Tested browser back/forward actions
