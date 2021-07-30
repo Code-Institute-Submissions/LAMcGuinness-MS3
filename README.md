@@ -94,7 +94,7 @@ The aim of FastFood was to create an online cookbook of fast and healthy recipes
         - Fix: Human error spelling mistake
     - Problem: NameError: name 'flash' is not defined
         - Fix: Forgot to import 'flash' from 'flask'
-
+    - 
 
 #### Checked for broken links
 #### Tested browser back/forward actions

@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,400&display=swap');
 
 body {
-    background-color: #fafafa;
+    background-color: #F2B705;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -11,6 +11,5 @@ body {
 }
 
 .flashes h4{
-    line-height: 2;
-    
+    line-height: 2;    
 }

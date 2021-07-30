@@ -21,20 +21,25 @@ mongo = PyMongo(app)
 
 @app.route("/")
 def home():
-    """
-    landing page
-    """
+    # landing page
     return render_template("home.html")
 
 
+@app.route("/recipies")
+def recipies():
+    # recipes from db
+    recipies = list(mongo.db.recipies.find())
+    return render_template("recipe.html", recipies=recipies)
+
+
 @app.route("/register", methods=["GET", "POST"])
-def register(): 
+def register():
     if request.method == "POST":
         # check if username is already in use in db
         existing_user = mongo.db.users.find_one(
             {"username": request.form.get("username").lower()})
 
-        if existing_user: 
+        if existing_user:
             flash("Username already in use")
             return redirect(url_for("register"))
 
@@ -61,12 +66,12 @@ def login():
         if existing_user:
             # ensure hashed password matches what user has entered
             if check_password_hash(
-                existing_user["password"], request.form.get("password")):
-                    session["user"] = request.form.get("username").lower()
-                    flash("Welcome, {}".format(
-                        request.form.get("username")))
-                    return redirect(url_for(
-                        "profile", username=session["user"]))
+                    existing_user["password"], request.form.get("password")):
+                        session["user"] = request.form.get("username").lower()
+                        flash("Welcome, {}".format(
+                            request.form.get("username")))
+                        return redirect(url_for(
+                            "profile", username=session["user"]))
             else:
                 # password entered does not match
                 flash("Incorrect Username and/or Password entered")
@@ -85,7 +90,6 @@ def profile(username):
     #grab the session users username from db
     username = mongo.db.users.find_one(
         {"username": session["user"]})["username"]
-    return render_template("profile.html", username=username)
 
     if session['user']:
         return render_template("profile.html", username=username)
