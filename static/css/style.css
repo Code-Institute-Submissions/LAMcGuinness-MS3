@@ -12,6 +12,23 @@ body {
     text-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
+/*-- navbar --*/
+nav .brand-logo {
+    color: #1b5e20;
+}
+
+nav ul a {
+    color: #1B5E20;
+}
+
+nav .nav-wrapper {
+    padding: 15px;
+}
+
+#logo {
+    height: 65px;
+    width: 60px;
+}
 
 /*-- flash messages --*/
 .flashes h4{

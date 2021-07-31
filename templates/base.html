@@ -22,9 +22,12 @@
 <body>
     <header>
         <!-- NavBar From Materialize top navbar -->
-        <nav class="nav-extended text-shadow pink-text text-lighten-1 amber darken-4">
+        <nav class="nav-extended text-shadow green-text text-darken-4 amber darken-4">
             <div class="nav-wrapper">
-                <a href="#!" class="brand-logo">Food Fast</a>
+                <a href="{{ url_for('home') }}" class="brand-logo">
+                    <img src="{{ url_for('static', filename = 'img/milestoneThreeLogo.png')}}" id="logo" alt="logo">
+                    Food Fast
+                </a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="fas fa-bars"></i></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="{{ url_for('home') }}">Home</a></li>
