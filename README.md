@@ -80,6 +80,9 @@ Used [Abode Color](https://color.adobe.com/explore) to get an idea of a color sc
 11. [Workzeug](https://werkzeug.palletsprojects.com/en/2.0.x/)
     * Used for security
 
+12. [Canva](https://www.canva.com/)
+    * Used to make logo for website
+
 ## Testing
 ### Issues Encountered
 
@@ -126,11 +129,18 @@ Used [Abode Color](https://color.adobe.com/explore) to get an idea of a color sc
 ### Heroku
 
 ## Credits
-
+### Code
 [Materialize](https://materializecss.com/about.html) 
 * Materialize templeates used throughout project
 
 [Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+DCP101+2017_T3/courseware/9e2f12f5584e48acb3c29e9b0d7cc4fe/6449dcd23ca14016aa83dc7313d91a02/?child=first)
 * Code used from this video to provide the proper form validation on the category selection of the 'add_recipe.html' pagef
+
+### Recipes
+[BBC Good Food](https://www.bbcgoodfood.com/)
+* Recipes taken and edited from here
+[The Body Coach](https://www.thebodycoach.com/blog/tags/recipes)
+* Recipes taken and edited from here
+
 
 ### Acknowledgements
