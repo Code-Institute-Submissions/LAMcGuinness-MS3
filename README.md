@@ -34,6 +34,8 @@ The aim of FastFood was to create an online cookbook of fast and healthy recipes
 
 ### Design
 
+Used [Abode Color](https://color.adobe.com/explore) to get an idea of a color scheme for site. Type in 'healthy food' and went with a red/green/orange there. Colors associated with fruits and vegetables. 
+
 ### Wireframes
 
 ## Features
@@ -124,5 +126,11 @@ The aim of FastFood was to create an online cookbook of fast and healthy recipes
 ### Heroku
 
 ## Credits
+
+[Materialize](https://materializecss.com/about.html) 
+* Materialize templeates used throughout project
+
+[Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+DCP101+2017_T3/courseware/9e2f12f5584e48acb3c29e9b0d7cc4fe/6449dcd23ca14016aa83dc7313d91a02/?child=first)
+* Code used from this video to provide the proper form validation on the category selection of the 'add_recipe.html' pagef
 
 ### Acknowledgements
