@@ -118,6 +118,10 @@ Used [Abode Color](https://color.adobe.com/explore) to get an idea of a color sc
 
 - Problem: NameError: name 'flash' is not defined
     - Fix: Forgot to import 'flash' from 'flask'
+
+- werkzeug.routing.BuildError: Could not build url for endpoint 'edit_recipe'. Did you mean 'add_recipe' instead?
+    - ???? Removed Edit recipe/@app.route('edit_recipe') ..... Still throwing up this error?
+
 ### Testing User Stories
 
 #### First time user
@@ -133,7 +137,11 @@ Used [Abode Color](https://color.adobe.com/explore) to get an idea of a color sc
 ### Testing Compatibility
 
 #### Responsiveness
+[Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?hl=en)
 #### Devices Test
+- MacBook Pro (13-inch)
+- iPhone 11 Pro Max
+- iPad Pro
 #### Browser Test
 
 ### Testing Performance & Accessibility
@@ -149,9 +157,58 @@ Used [Abode Color](https://color.adobe.com/explore) to get an idea of a color sc
 #### Python
 
 ## Deployment
+### Heroku
+This project is deployed using Heroku. The following steps were taken to do this.
+1. Database was created using MongoDB Atlas
+2. Created a Flask Application in Heroku:
+    - Log Into Heroku
+    - Selected "Create New App"
+    - Selected a name for app (flask-milestone-three-lamcg)
+    - Selected region 
+    - After this "Create App" 
+3. In GitPod took following steps:
+    - created .gitignore file
+    - added eny.py and __pycache__ to the .gitignore
+    - in eny.py set the following:
+        - os.environ.setdefault("IP", "0.0.0.0")
+        - os.environ.setdefault("PORT", "5000")
+        - os.environ.setdefault("SECRET_KEY", "YOUR_SECRET_KEY")
+        - os.environ.setdefault("MONGO_URI", "MongoDB link here")
+        - os.environ.setdefault("MONGO_DBNAME", "DATABASE_NAME")
+    - saved eny.py
+    - created and opened app.py file here we:
+        - import OS, Flask, but using 'pip3 install ..."
+    - created Procfile
+        - typed 'echo web: python app.py > Procfile' into terminal 
+        - deleted empty bottom line on Profile to avoid any future issues
+    - created requirements.txt 
+        - done by typing 'pip3 freeze --local > requirements.txt'
+4. Back on Heroku
+    - Clicked on "deploy" in tab menu
+    - Deployment method select "GitHub"
+    - Click on the settings tab next
+    - Here clicked on "Reveal config vars"
+    - Entered the following information as per the eny.py
+        - "IP", "0.0.0.0"
+        - "PORT", "5000"
+        - "SECRET_KEY", "YOUR_SECRET_KEY"
+        - "MONGO_URI", "MongoDB link here"
+        - "MONGO_DBNAME", "DATABASE_NAME"
+    - After these are updates clicked "hide config vars"
+    - Go back to deploy tab, clicked "enable automatic deployment".
+    - Still in deploy tab, furthur down, clicked "deploy branch". 
+    - Once complete a message appear "app was successfully deployed"
+    - At the top of the page can now "open app" by clicking on said button. 
+
+
+
 ### GitHub Pages
 ### Forking the GitHub repository
-### Heroku
+Forking the orginal respository on GitHub account can be used to make changes to copy with out affecting the orignal repository. Use the following steps if doing this:
+
+1. Login to GitHub and locate Milestone3- Respitory.
+2. At the top of Repository just above "Settings" button there is a "Fork" button.
+3. There should now be a copy of the orginal repository in our GitHub account.
 
 ## Credits
 ### Code

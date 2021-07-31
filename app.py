@@ -1,8 +1,7 @@
 import os
 
-from flask import(
-    Flask, flash, render_template,
-    redirect, request, session, url_for)
+from flask import (
+    Flask, flash, render_template, redirect, request, session, url_for)
 from flask_pymongo import PyMongo
 from bson.objectid import ObjectId
 from werkzeug.security import generate_password_hash, check_password_hash
@@ -87,9 +86,9 @@ def login():
 
 @app.route("/profile/<username>", methods=["GET", "POST"])
 def profile(username):
-    #grab the session users username from db
     username = mongo.db.users.find_one(
         {"username": session["user"]})["username"]
+        #grab the session users username from db
 
     if session['user']:
         return render_template("profile.html", username=username)
