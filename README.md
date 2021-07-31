@@ -34,11 +34,33 @@ The aim of FastFood was to create an online cookbook of fast and healthy recipes
 
 ### Design
 
-Used [Abode Color](https://color.adobe.com/explore) to get an idea of a color scheme for site. Type in 'healthy food' and went with a red/green/orange there. Colors associated with fruits and vegetables. 
+Used [Abode Color](https://color.adobe.com/explore) to get an idea of a color scheme for site. Type in 'healthy food' and went with a red/green/orange there. Colors associated with fruits and vegetables/healthy foods.
 
 ### Wireframes
 
 ## Features
+* Navigation Bar & Side Nav Bar
+    - Users can navigate throughout the website easily with the aid of the navigation bar. 
+    - SideNav on smaller screens shows navigation links in drop down menu.
+* Create Account
+    - New users can create account to share, edit and delete their own recipes with other users.
+* Log In 
+    - Log In section where users are brought to their profiles and can see their recipes
+* Log Out
+    - Allows user to log out and removes cookies
+* Add Recipe
+    -
+* Recipe section
+    - Users can see recipes clearly broken into sections:
+        1. Name /type of meal
+        2. Ingredients for meal
+        3. Method for meal
+        4. Who the creator of the recipe is
+* Footer
+    - It also contains links to their social media accounts along with company name, moto and copyright.
+  
+## Future Release Updates
+
 
 ## Technologies Used
 ### Languages
@@ -83,9 +105,19 @@ Used [Abode Color](https://color.adobe.com/explore) to get an idea of a color sc
 12. [Canva](https://www.canva.com/)
     * Used to make logo for website
 
+13. [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?hl=en)
+    * Used to see what site with look like on various devices. Made sure was responsive on small, medium and large screens.
+
 ## Testing
 ### Issues Encountered
+- Problem: Jinga errors when testing if register.html page was working 
+    - Fix: Human error {% end block %} was entered instead of {% endblock %}
 
+- Problem: NameError: name 'session' is not defined
+    - Fix: Human error spelling mistake
+
+- Problem: NameError: name 'flash' is not defined
+    - Fix: Forgot to import 'flash' from 'flask'
 ### Testing User Stories
 
 #### First time user
@@ -93,13 +125,6 @@ Used [Abode Color](https://color.adobe.com/explore) to get an idea of a color sc
 
 ### Testing Functionality
 ### Errors encountered
-    - Problem: Jinga errors when testing if register.html page was working 
-        - Fix: Human error {% end block %} was entered instead of {% endblock %}
-    - Problem: NameError: name 'session' is not defined
-        - Fix: Human error spelling mistake
-    - Problem: NameError: name 'flash' is not defined
-        - Fix: Forgot to import 'flash' from 'flask'
-    - 
 
 #### Checked for broken links
 #### Tested browser back/forward actions
