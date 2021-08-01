@@ -138,6 +138,10 @@ Used [Abode Color](https://color.adobe.com/explore) to get an idea of a color sc
     - ???? Removed Edit recipe/@app.route('edit_recipe') ..... Still throwing up this error?
     - preemptively put links in href on the base template(working again)
 
+- Problem: admin can see 'manage categories'.. Currently showing manage category to all users who log in
+    - Fix: forgot to update Jinga {% if session.user|lower == "admin"|lower %} {% endif %} in side nav as well as navbar.
+    Once put in only when logged in as admin manage categories appears.
+
 ### Testing User Stories
 #### Testing Site Owner Stories
 1. a functioning website with no broken links
