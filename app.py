@@ -31,6 +31,13 @@ def recipies():
     return render_template("recipe.html", recipies=recipies)
 
 
+@app.route("/search", methods=["GET", "POST"])
+def search():
+    query = request.form.get("query")
+    recipies = list(mongo.db.recipies.find({"$text": {"$search": query}}))
+    return render_template("recipe.html", recipies=recipies)
+
+
 @app.route("/register", methods=["GET", "POST"])
 def register():
     if request.method == "POST":
