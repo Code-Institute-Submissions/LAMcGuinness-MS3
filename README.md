@@ -39,8 +39,16 @@ As the site owner I want to;
     * Display results that are visually appealing and user friendly
 
 ### Design
+#### Color
+Used [Abode Color](https://color.adobe.com/explore) to get an idea of a color scheme for site. Type in 'healthy food' and went with a red/green/orange there. Colors associated with fruits and vegetables/healthy foods. 
+Colors used in this project were;
+    - #1B5E20 Green
+    - #FBC02D Yellow
+    - #FF6F00 Amber
+    - #FF3D00 Oranage
 
-Used [Abode Color](https://color.adobe.com/explore) to get an idea of a color scheme for site. Type in 'healthy food' and went with a red/green/orange there. Colors associated with fruits and vegetables/healthy foods.
+#### Font
+Font was imported from [GoogleFonts](https://fonts.google.com/). I choose the Montserrat font as it was a clean clear and easy to read font.
 
 ### Wireframes
 
@@ -72,6 +80,9 @@ Used [Abode Color](https://color.adobe.com/explore) to get an idea of a color sc
     - It also contains links to their social media accounts along with company name, moto and copyright.
   
 ## Future Release Updates
+* Improve on design and display. Making sure all areas are uniform in padding, margins, text color etc.
+* Colaborate with a cooking untensil brand to promote there products and create revenue from advertising.
+*
 
 
 ## Technologies Used
@@ -123,6 +134,9 @@ Used [Abode Color](https://color.adobe.com/explore) to get an idea of a color sc
 14. [Shutterstock](https://www.shutterstock.com/home)
     * Landing page image found here
 
+15. [GoogleFonts](https://fonts.google.com/) 
+    * Font was found here
+
 ## Testing
 ### Issues Encountered
 - Problem: Jinga errors when testing if register.html page was working 
@@ -154,8 +168,32 @@ Used [Abode Color](https://color.adobe.com/explore) to get an idea of a color sc
     - log in/out and passwords store in db are done securely with the help of Werkzeug
 
 #### First time user
+1. Easy to navigate:
+    - navigate is easy using the navbar and side nav 
+2. Search for recipes:
+    - 
+3. Register an account: 
+    - link for this can be found in side nav and navbar
+4. Post Recipies:
+    - Once the new user has created an account and is logged it can add recipies via 'add recipe' section
 
 #### Returning User
+1. Find log in area on site:
+    - this can be found easily in both the navbar on top for larger screens, and sidebar dropdown for smaller mobile devices.
+2. Share recipes :
+    - once logged in user can share recipes in the 'add recipe' section
+3. Edit and delete users own recipes:
+    -
+4. Navigate with ease:
+    - can be done through the navbar and side nav. also links to social media open on a separate page so do no disrupt viewing while on the site.
+
+#### Owner/Admin
+1. Add new categories
+    - can be done once logged in as admin
+2. Edit and delete recipes
+    - 
+3. Have visually appealing website
+    - 
 
 ### Testing Functionality
 ### Errors encountered
@@ -172,7 +210,13 @@ Used [Abode Color](https://color.adobe.com/explore) to get an idea of a color sc
 - MacBook Pro (13-inch)
 - iPhone 11 Pro Max
 - iPad Pro
+    - Site looks fine on all these devices
+
 #### Browser Test
+- Safari
+- Google Chrome
+- Mozilla Firefox
+    - Site appeared fine on all browsers if was viewd on
 
 ### Testing Performance & Accessibility
 [Lighthouse](https://developers.google.com/web/tools/lighthouse)
