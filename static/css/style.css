@@ -46,6 +46,48 @@ nav .nav-wrapper {
     text-align: right;
 }
 
+/*-- block dividers --*/
+.block-divider {
+    width: 500px;
+    height: 5px;
+    border: 0;
+    background-color: #FF6F00;
+}
+/*-- homepage --*/
+.callout-outer {
+    width: 100%;
+    overflow: hidden;
+}
+
+.callout-container {
+    height: 100vh;
+    background: url(/static/img/MilestoneThreeLanding.png) no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*--"Whiskey Drop Project" Code Institute --*/
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .35);
+}
+
+section.callout.text-center.uppercase{
+    text-transform: uppercase;
+    color: #FF6F00;
+}
+
+
 /*-- recipes --*/
 .collapsible-header 
 .col strong {
