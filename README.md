@@ -113,6 +113,9 @@ Used [Abode Color](https://color.adobe.com/explore) to get an idea of a color sc
 13. [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?hl=en)
     * Used to see what site with look like on various devices. Made sure was responsive on small, medium and large screens.
 
+14. [Shutterstock](https://www.shutterstock.com/home)
+    * Landing page image found here
+
 ## Testing
 ### Issues Encountered
 - Problem: Jinga errors when testing if register.html page was working 
@@ -129,8 +132,10 @@ Used [Abode Color](https://color.adobe.com/explore) to get an idea of a color sc
     - preemptively put links in href on the base template(working again)
 
 ### Testing User Stories
+#### Site Owner
 
 #### First time user
+
 #### Returning User
 
 ### Testing Functionality
@@ -227,6 +232,7 @@ Forking the orginal respository on GitHub account can be used to make changes to
 * Recipes taken and edited from here
 [The Body Coach](https://www.thebodycoach.com/blog/tags/recipes)
 * Recipes taken and edited from here
+
 
 
 ### Acknowledgements
