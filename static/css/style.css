@@ -54,43 +54,32 @@ nav .nav-wrapper {
     background-color: #FF6F00;
 }
 /*-- homepage --*/
-.callout-outer {
-    width: 100%;
-    overflow: hidden;
-}
-
-.callout-container {
-    height: 100vh;
-    background: url(/static/img/MilestoneThreeLanding.png) no-repeat bottom right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; 
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/*--"Whiskey Drop Project" Code Institute --*/
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, .35);
-}
-
-section.callout.text-center.uppercase{
-    text-transform: uppercase;
-    color: #FF6F00;
-}
-
 
 /*-- recipes --*/
 .collapsible-header 
 .col strong {
     margin: 5px;
     line-height: 45px;
+}
+
+/*-- MEDIA QUERIES FOR SMALLER MOBILE DEVICES --*/
+@media screen and (max-width: 550px){
+    .navbar {
+        padding: 10px;
+    }
+
+    .brand-logo {
+    letter-spacing: 1.1px;
+    font-size: 16px;
+    }
+
+    .sidenav-trigger{
+        font-size: 20px;
+        padding: 0;
+    }
+    
+    .btn {
+        font-size: 16px;
+
+    }
 }
