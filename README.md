@@ -82,7 +82,7 @@ Font was imported from [GoogleFonts](https://fonts.google.com/). I choose the Mo
 ## Future Release Updates
 * Improve on design and display. Making sure all areas are uniform in padding, margins, text color etc.
 * Colaborate with a cooking untensil brand to promote there products and create revenue from advertising.
-*
+* 
 
 
 ## Technologies Used
@@ -183,7 +183,7 @@ Font was imported from [GoogleFonts](https://fonts.google.com/). I choose the Mo
 2. Share recipes :
     - once logged in user can share recipes in the 'add recipe' section
 3. Edit and delete users own recipes:
-    -
+    - can be done with ease in that section
 4. Navigate with ease:
     - can be done through the navbar and side nav. also links to social media open on a separate page so do no disrupt viewing while on the site.
 
@@ -191,16 +191,20 @@ Font was imported from [GoogleFonts](https://fonts.google.com/). I choose the Mo
 1. Add new categories
     - can be done once logged in as admin
 2. Edit and delete recipes
-    - 
+    - can be done 
 3. Have visually appealing website
-    - 
+    - aesthetically looks good, but there are some areas that need to be tweaked in future updates.
 
 ### Testing Functionality
 ### Errors encountered
+- human error... made a spelling mistake in my mongodb spelt 'recipies' instead of 'recipe' in database. Carried the typo through here. 
 
 #### Checked for broken links
+- all links manually check and appear to be working fine
 #### Tested browser back/forward actions
+- appear to all be working fine
 #### Tested form validation
+-forms all working and data showing up in database. also deleting data from database when tested
 
 ### Testing Compatibility
 
@@ -225,11 +229,11 @@ Font was imported from [GoogleFonts](https://fonts.google.com/). I choose the Mo
 ### Code validation
 #### HTML
 [W3C Validator](https://validator.w3.org/)
-
+- no issues found
 
 #### CSS
 [W3C CSS](https://validator.w3.org/)
-
+- unused css removed
 
 #### JavaScript
 [JSHint](https://jshint.com/)
@@ -297,12 +301,13 @@ Forking the orginal respository on GitHub account can be used to make changes to
 [Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+DCP101+2017_T3/courseware/9e2f12f5584e48acb3c29e9b0d7cc4fe/6449dcd23ca14016aa83dc7313d91a02/?child=first)
 * Code used from this video to provide the proper form validation on the category selection of the 'add_recipe.html' pagef
 
+[Code Institute](https://learn.codeinstitute.net/dashboard)
+* Followed same pattern as miniproject/task manager for this project
+
 ### Recipes
 [BBC Good Food](https://www.bbcgoodfood.com/)
 * Recipes taken and edited from here
 [The Body Coach](https://www.thebodycoach.com/blog/tags/recipes)
 * Recipes taken and edited from here
-
-
 
 ### Acknowledgements
