@@ -12,7 +12,7 @@
                     <strong>{{ recipies.recipe_name }}</strong> : {{ recipies.category_name}}
                 </div>
                 <div class="col s3">
-                    <a href=""  class="btn-small recipe-btn amber darken-4"><i class="fas fa-pen"></i>Edit</a>
+                    <a href="{{ url_for('edit_recipe', recipe_id=recipies._id)}}"  class="btn-small recipe-btn amber darken-4"><i class="fas fa-pen"></i>Edit</a>
                     <a href="" class="btn-small recipe-btn amber darken-4"><i class="fas fa-trash-alt"></i>Delete</a>
                 </div>
 
