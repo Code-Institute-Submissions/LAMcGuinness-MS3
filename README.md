@@ -11,7 +11,12 @@ A live version of the website can be found .... along with its repository ....
 The aim of FastFood was to create an online cookbook of fast and healthy recipes. User will be able to make real healthy food really fast, recipes should all be 30 minutes or less start to finish! Users will be able to find and share recipes with each other. 
 
 ### Business Scope
-
+As the site owner I want to;
+    - a functioning website with no broken links
+    - create a fun and easy to naviate recipe sharing app
+    - be able to create, read, update and delete recipes
+    - if it is easy to use with no issue should increase traffic
+    - in the future link up with cookware and food brands link sale to there products from recipes
 
 ### User Stories
 
@@ -121,6 +126,7 @@ Used [Abode Color](https://color.adobe.com/explore) to get an idea of a color sc
 
 - werkzeug.routing.BuildError: Could not build url for endpoint 'edit_recipe'. Did you mean 'add_recipe' instead?
     - ???? Removed Edit recipe/@app.route('edit_recipe') ..... Still throwing up this error?
+    - preemptively put links in href on the base template(working again)
 
 ### Testing User Stories
 
@@ -199,8 +205,6 @@ This project is deployed using Heroku. The following steps were taken to do this
     - Still in deploy tab, furthur down, clicked "deploy branch". 
     - Once complete a message appear "app was successfully deployed"
     - At the top of the page can now "open app" by clicking on said button. 
-
-
 
 ### GitHub Pages
 ### Forking the GitHub repository
