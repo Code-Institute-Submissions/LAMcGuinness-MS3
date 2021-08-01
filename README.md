@@ -3,8 +3,9 @@
 ## About
 
 This is a website is a platfrom for sharing recipes that are healthy and will be ready fast. Real food really fast. Its main purpose is recipe sharing among users. Users can register an account, add recipes and search through existing recipes. Fast Food is an educational project used for the purpose of my Milestone 3/Data Centric Module project for the Code Institute.
+![picture of site](/static/img/amIResponsive.png)
 
-A live version of the website can be found .... along with its repository ....
+A live version of the website can be found [site](https://flask-milestone-three-lamcg.herokuapp.com/) along with its repository [repository](https://github.com/LAMcGuinness/MS3)
 
 ## UX Design 
 
@@ -51,6 +52,8 @@ Colors used in this project were;
 Font was imported from [GoogleFonts](https://fonts.google.com/). I choose the Montserrat font as it was a clean clear and easy to read font.
 
 ### Wireframes
+
+wireframes were created using balsamic and can be found here [balsamiq](https://balsamiq.cloud/sugq8ue/p64h7n6/rC1D1)
 
 ## Features
 * Navigation Bar & Side Nav Bar
