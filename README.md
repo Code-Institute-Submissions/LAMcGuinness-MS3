@@ -17,6 +17,7 @@ As the site owner I want to;
     - be able to create, read, update and delete recipes
     - if it is easy to use with no issue should increase traffic
     - in the future link up with cookware and food brands link sale to there products from recipes
+    - securely log in and out of site no compromise of passwords
 
 ### User Stories
 
@@ -53,14 +54,20 @@ Used [Abode Color](https://color.adobe.com/explore) to get an idea of a color sc
     - Log In section where users are brought to their profiles and can see their recipes
 * Log Out
     - Allows user to log out and removes cookies
-* Add Recipe
-    -
 * Recipe section
     - Users can see recipes clearly broken into sections:
         1. Name /type of meal
         2. Ingredients for meal
         3. Method for meal
         4. Who the creator of the recipe is
+* Create Recipe
+    - Recipes can be added by registered users
+* Read Recipes
+    - All visitors to the site can read recipes
+* Update Recipe
+    - Registered Users can Update recipes they have submitted to the site
+* Delete Recipe
+    - Registered users can delete recipes theyve entered on the website
 * Footer
     - It also contains links to their social media accounts along with company name, moto and copyright.
   
@@ -132,7 +139,15 @@ Used [Abode Color](https://color.adobe.com/explore) to get an idea of a color sc
     - preemptively put links in href on the base template(working again)
 
 ### Testing User Stories
-#### Site Owner
+#### Testing Site Owner Stories
+1. a functioning website with no broken links
+    - all buttons on the page were tested manually no broken links found
+2. create a fun and easy to navigate recipe sharing app
+    - very easy to navigate with the nav bar at the top and on smaller devices the drop down menu
+3. be able to create, read, update and delete recipes
+    - CRUDs can be done with recipes on site
+4. securely log in and out of site no compromise of passwords
+    - log in/out and passwords store in db are done securely with the help of Werkzeug
 
 #### First time user
 
@@ -162,9 +177,16 @@ Used [Abode Color](https://color.adobe.com/explore) to get an idea of a color sc
 ### Code validation
 #### HTML
 [W3C Validator](https://validator.w3.org/)
+
+
 #### CSS
 [W3C CSS](https://validator.w3.org/)
+
+
 #### JavaScript
+[JSHint](https://jshint.com/)
+- No warning displayed when code from script.js was entered into JSHint.
+
 #### Python
 
 ## Deployment
